@@ -35,7 +35,6 @@ export default function ProductContainer() {
 	const [openDialog, setOpenDialog] = useState(false)
 	const [data, setData] = useState({})
 	const handleOpenDialog = item => {
-		console.log('clicked')
 		setOpenDialog(true)
 		setData(item)
 	}
