@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { ThemeProvider } from '@material-ui/core'
+import theme from './ui/Theme'
+import Header from './ui/Header'
+import Banner from './components/Banner'
+import OfferSection from './components/OfferSection'
+import ProductSection from './ui/ProductSection'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+	return (
+		<ThemeProvider theme={theme}>
+			<Header />
+			<Banner />
+			<OfferSection />
+			<ProductSection />
+		</ThemeProvider>
+	)
 }
-
-export default App;
