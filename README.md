@@ -2,7 +2,9 @@
 
 ## DEMO
 
+https://ecomfrontend.netlify.app/
+
 ## ScreenShots
 
-![alt text](ss1.png)
-![alt text](ss2.png)
+![Landing Page](ss1.png)
+![Products](ss2.png)
