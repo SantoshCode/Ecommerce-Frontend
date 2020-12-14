@@ -8,7 +8,7 @@ import productsData from '../data'
 
 const useStyles = makeStyles(theme => ({
 	productContainer: {
-		marginLeft: '10px',
+		// marginLeft: '10px',
 		height: '93vh',
 		width: '84vw',
 		[theme.breakpoints.down('lg')]: {
@@ -16,6 +16,9 @@ const useStyles = makeStyles(theme => ({
 		},
 		[theme.breakpoints.down('md')]: {
 			width: '82vw',
+		},
+		[theme.breakpoints.down('xs')]: {
+			width: '100%',
 		},
 	},
 	prodContainer: {
